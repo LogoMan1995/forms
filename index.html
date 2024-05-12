@@ -1,37 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Social</title>
 </head>
+
 <body>
     <div class="container">
         <div class="social">
             <form id="form">
-               <div>
-                    <label>
-                        Login
-                        <input type="text" name="name" value="" placeholder="Электронный адресс">
-                    </label>
+                <div>
+                    <input type="text" name="todo" placeholder="todo here">
                 </div>
                 <div>
-                    <label>
-                        Password
-                        <input type="password" name="pswd"  value="" placeholder="Пароль">
-                    </label>
+                    <button type="submit">
+                        add todo
+                    </button>
                 </div>
-                <div>
-                    <button type="submit">Sign In</button>
-                    
-                </div> 
-                </form>
-                <div class="wrapper">
-                </div>
-                <script src="script.js"></script>
-        </div>
+            </form>
+            <button id="delete_btn">🗑 delete all checked</button>
+            <div class="wrapper">
+            </div>
+            <script src="script.js"></script>
         </div>
     </div>
 </body>
+
 </html>
